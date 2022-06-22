@@ -17,5 +17,26 @@ namespace AnimalEncyclopedia
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string name = name_tb.Text;
+            string color = color_cb.ToString();
+            string weight = weight_tb.Text;
+            DateTime dob = dateTimePicker1.Value;
+            string species = species_cb.ToString();
+            string emp = emp_cb.ToString();
+
+
+
+
+            if (string.IsNullOrEmpty(name)|| string.IsNullOrEmpty(species){
+
+
+                MessageBox.Show("Missing information detected");
+
+
+            }
+
+        }
     }
 }

@@ -33,14 +33,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.fname_tb = new System.Windows.Forms.TextBox();
+            this.emp_tb = new System.Windows.Forms.TextBox();
+            this.Pos_tb = new System.Windows.Forms.TextBox();
+            this.lname_tb = new System.Windows.Forms.TextBox();
+            this.dep_tb = new System.Windows.Forms.TextBox();
+            this.cont_tb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.create_bt = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -101,53 +101,53 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Position";
             // 
-            // textBox1
+            // fname_tb
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 134);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(252, 39);
-            this.textBox1.TabIndex = 8;
+            this.fname_tb.Location = new System.Drawing.Point(238, 134);
+            this.fname_tb.Multiline = true;
+            this.fname_tb.Name = "fname_tb";
+            this.fname_tb.Size = new System.Drawing.Size(252, 39);
+            this.fname_tb.TabIndex = 8;
             // 
-            // textBox2
+            // emp_tb
             // 
-            this.textBox2.Location = new System.Drawing.Point(238, 250);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(252, 39);
-            this.textBox2.TabIndex = 9;
+            this.emp_tb.Location = new System.Drawing.Point(238, 250);
+            this.emp_tb.Multiline = true;
+            this.emp_tb.Name = "emp_tb";
+            this.emp_tb.Size = new System.Drawing.Size(252, 39);
+            this.emp_tb.TabIndex = 9;
             // 
-            // textBox3
+            // Pos_tb
             // 
-            this.textBox3.Location = new System.Drawing.Point(670, 250);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(252, 39);
-            this.textBox3.TabIndex = 10;
+            this.Pos_tb.Location = new System.Drawing.Point(670, 250);
+            this.Pos_tb.Multiline = true;
+            this.Pos_tb.Name = "Pos_tb";
+            this.Pos_tb.Size = new System.Drawing.Size(252, 39);
+            this.Pos_tb.TabIndex = 10;
             // 
-            // textBox4
+            // lname_tb
             // 
-            this.textBox4.Location = new System.Drawing.Point(715, 134);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(225, 39);
-            this.textBox4.TabIndex = 11;
+            this.lname_tb.Location = new System.Drawing.Point(715, 134);
+            this.lname_tb.Multiline = true;
+            this.lname_tb.Name = "lname_tb";
+            this.lname_tb.Size = new System.Drawing.Size(225, 39);
+            this.lname_tb.TabIndex = 11;
             // 
-            // textBox5
+            // dep_tb
             // 
-            this.textBox5.Location = new System.Drawing.Point(250, 370);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(252, 39);
-            this.textBox5.TabIndex = 12;
+            this.dep_tb.Location = new System.Drawing.Point(250, 370);
+            this.dep_tb.Multiline = true;
+            this.dep_tb.Name = "dep_tb";
+            this.dep_tb.Size = new System.Drawing.Size(252, 39);
+            this.dep_tb.TabIndex = 12;
             // 
-            // textBox6
+            // cont_tb
             // 
-            this.textBox6.Location = new System.Drawing.Point(721, 370);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(219, 39);
-            this.textBox6.TabIndex = 13;
+            this.cont_tb.Location = new System.Drawing.Point(721, 370);
+            this.cont_tb.Multiline = true;
+            this.cont_tb.Name = "cont_tb";
+            this.cont_tb.Size = new System.Drawing.Size(219, 39);
+            this.cont_tb.TabIndex = 13;
             // 
             // label6
             // 
@@ -160,16 +160,17 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Contact#";
             // 
-            // button1
+            // create_bt
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(387, 462);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 65);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Create";
-            this.button1.UseVisualStyleBackColor = false;
+            this.create_bt.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.create_bt.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.create_bt.Location = new System.Drawing.Point(387, 462);
+            this.create_bt.Name = "create_bt";
+            this.create_bt.Size = new System.Drawing.Size(222, 65);
+            this.create_bt.TabIndex = 15;
+            this.create_bt.Text = "Create";
+            this.create_bt.UseVisualStyleBackColor = false;
+            this.create_bt.Click += new System.EventHandler(this.create_bt_Click);
             // 
             // label7
             // 
@@ -197,14 +198,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 550);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.create_bt);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cont_tb);
+            this.Controls.Add(this.dep_tb);
+            this.Controls.Add(this.lname_tb);
+            this.Controls.Add(this.Pos_tb);
+            this.Controls.Add(this.emp_tb);
+            this.Controls.Add(this.fname_tb);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -227,14 +228,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox fname_tb;
+        private System.Windows.Forms.TextBox emp_tb;
+        private System.Windows.Forms.TextBox Pos_tb;
+        private System.Windows.Forms.TextBox lname_tb;
+        private System.Windows.Forms.TextBox dep_tb;
+        private System.Windows.Forms.TextBox cont_tb;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button create_bt;
         private System.Windows.Forms.Label label7;
     }
 }
