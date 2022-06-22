@@ -20,19 +20,26 @@ namespace AnimalEncyclopedia
         private void button1_Click(object sender, EventArgs e)
         {
             string name = name_tb.Text;
-            string color = color_cb.ToString();
+            string color = color_cb.SelectedItem.ToString();
             string weight = weight_tb.Text;
             DateTime dob = dateTimePicker1.Value;
-            string species = species_cb.ToString();
+            string species = species_cb.SelectedItem.ToString();
             string emp = emp_cb.ToString();
 
 
+            bool isValid = true;
 
 
             if (string.IsNullOrEmpty(name)|| string.IsNullOrEmpty(species)){
 
-
+                isValid = false;
                 MessageBox.Show("Missing information detected");
+
+
+            }
+            if (isValid) {
+
+                MessageBox.Show("Animal has been added successfully to record");
 
 
             }
