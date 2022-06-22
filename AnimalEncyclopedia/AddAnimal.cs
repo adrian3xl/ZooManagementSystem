@@ -29,7 +29,7 @@ namespace AnimalEncyclopedia
 
 
 
-            if (string.IsNullOrEmpty(name)|| string.IsNullOrEmpty(species){
+            if (string.IsNullOrEmpty(name)|| string.IsNullOrEmpty(species)){
 
 
                 MessageBox.Show("Missing information detected");
